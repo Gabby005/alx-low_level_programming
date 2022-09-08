@@ -3,10 +3,8 @@
 /**
  * main = print a string
  * description : user printf
- * retrun = 0
- *
- **/
-
+ * Return = 0
+ */
 
 	int main(void)
 
