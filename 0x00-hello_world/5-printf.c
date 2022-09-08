@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print a string
- * description : user printf
- * Return = 0
+ * main - Print a string
+ * Description: user printf
+ * Return: 0
  */
 
 
