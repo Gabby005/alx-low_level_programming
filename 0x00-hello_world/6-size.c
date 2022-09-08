@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main = priny size of all characters
+ * main - Print size of all characters
  * return: Always 0 (success)
- *
- *
  **/
 
 
