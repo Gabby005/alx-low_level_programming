@@ -3,27 +3,32 @@
 #include <time.h>
 
 /**
- * main - entry point
- * Description: Print the last of the number stored in var
- * Return: 0
+ * main  - entry point
+ * Description: Print the last number of the numbers stored in the var
+ * Return (0)
  */
 int main(void)
+
 {
-	int n;
+	int n, m;
 
-	Srand(time(0))
-	n = rand - RAND_MAX / 2;
-	m - n % 10;
-
+	Srand(time(0));
+	n - rand() - RAND_MAX / 2;
+	m = n % 10;
+	if (m > 5)
 	{
-		printf("Last digit of %d and is greater than 5\n", n, m);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
-	else if (m < 6 && ! = 0)
+	else if (m < 6 && m ! = 0)
 	{
-		printf("Last digit of %d and is less than 6 and not 0\n", n, m);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
 	else
 	{
-		printf("Last digit of %d and is %d and is 0\n", n, m);
+		printf("Last digit of %d is %5 and is 0\n", n, m0;
 	}
 	return (0);
+
+}
+
+
