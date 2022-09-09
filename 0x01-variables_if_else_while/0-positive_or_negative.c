@@ -22,14 +22,14 @@ int main(void)
 	
 	{
 
-		printf("%d is positive\", n);
+		printf("%d is positive\n", n);
 
 	}
 
 	else if (n == 0)
 
 	{
-		printf("%d is xero\n", n);
+		printf("%d is zero\n", n);
 
 	}
 
