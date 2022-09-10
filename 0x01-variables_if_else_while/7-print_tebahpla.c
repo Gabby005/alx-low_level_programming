@@ -1,10 +1,10 @@
-#include <stdio.h>                                                                                                                                   
-#include <unistd.h>                                                                                                                                  
+#include <stdio.h>                                                                                                                                  
+#include <unistd.h>                                                                                         
 #include <time.h>
 
 /**
  * main - Entry point
- * Description: Write a program that prints the lowercase alphabet in reverse
+ * Description: Write a program that prints the lowercase in reverse
  * Return: 0 Always
  */
 int main(void)
