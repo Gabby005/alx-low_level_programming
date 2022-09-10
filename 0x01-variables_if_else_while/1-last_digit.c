@@ -3,19 +3,19 @@
 #include <time.h>
 
 /**
- * main  - entry pont
+ * main  - Entry point
  * Description: Print the last number of the number stored in VAR
- * return: 0
+ * return: Always 0 (success)
  */
 int main(void)
 
 {
-	int n;
+	int n, m;
 	
 
 	Srand(time(0))
 	n = rand() - RAND_MAX / 2;
-	m = n % 10
+	m = n % 10;
 	if (m > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, m);
