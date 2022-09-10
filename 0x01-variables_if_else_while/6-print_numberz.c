@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description: Write a program that prints all singl no of base ten\n
- * Return (0) Always
+ * Return: (0) Always
  */
 int main(void)
 
