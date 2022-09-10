@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  * Description:  prints all the numbers of base 16 in lowecase\n
  * Return: Always(0) success
  */
