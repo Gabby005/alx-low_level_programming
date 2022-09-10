@@ -5,14 +5,13 @@
 /**
  * main  - Entry point
  * Description: Print the last number of the number stored in VAR
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 
 {
 	int n, m;
 	
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
@@ -22,7 +21,7 @@ int main(void)
 	}
 	else if (m < 6 && m != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6\n", n, m);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	}
 	else
 	{
