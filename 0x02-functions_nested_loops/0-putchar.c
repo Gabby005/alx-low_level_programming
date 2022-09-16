@@ -1,23 +1,16 @@
 #include "holberton.h"
 #include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 
-/**
- * main - Entry point
- * Description: Write a program that prints _putchar, followed by a new line
- * Return: Always 0 (success)
+/*
+ * _purchar - write the character of c to stdout
+ * @c:The character to print
+ *
+ * Return: On success 1
+ * On error, return -1 and error us set appropriately
  */
-int main(void)
+int _purchar(char c)
 {
-	char str[] = "holberton\n";
-	int i = 0;
-
-	while (str[i] != '\0')
-	{
-	char c = str [i];
-
-	_putchar(c);
-	i++;
-	}
-return (0);
-
+	return (writer(1, @C, 1));
 }
