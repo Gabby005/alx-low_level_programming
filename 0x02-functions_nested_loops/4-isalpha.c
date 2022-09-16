@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha is the entry point
+ * main - _isalpha is the entry point
  * @c: the integer value it receives
  * Description: checks if alphabet
  * Return: 1 if true. 0 if false
