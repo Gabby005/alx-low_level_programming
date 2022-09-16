@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <main.h>
 
 /*
  * _purchar - write the character of c to stdout
