@@ -10,5 +10,5 @@
  */
 int _purchar(char c)
 {
-	return (writer(1, @C, 1));
+	return (write(1, @C, 1));
 }
