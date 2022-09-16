@@ -3,7 +3,7 @@
 /**
  * main - _isalpha is the entry point
  * @c: the integer value it receives
- * Description: checks if alphabet
+ * Description: Check for alphabetic character
  * Return: 1 if true. 0 if false
  */
 int _isalpha(int c)
