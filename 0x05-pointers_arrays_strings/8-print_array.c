@@ -7,7 +7,6 @@
  * @n: int type integer
  * Description: Numbers must be separated by comma and space.
  * The numbers should be displayed in the same order as they are stored in the array
- * You can only use _putchar to print
  * Return: Always 0
  */
 
