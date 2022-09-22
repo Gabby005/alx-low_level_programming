@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *string_toupper - Changes all lowercase letters
+ * string_toupper - Changes all lowercase letters
  * of a string to uppercase.
  * @str: The string to be changed.
  *
@@ -17,10 +17,9 @@ char *string_toupper(char *)
 	while (str[index])
 	{
 		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] = 32;
+			str[index] -= 32;
 
 		index++;
-
 
 	}
 
