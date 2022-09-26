@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _memcpy - copies n bytes from source memory to destination
  *
@@ -9,7 +7,6 @@
  *
  * Return: pointer to dest
  */
-
 char *_memcpy(char *dest, char *src, int n)
 {
 	char *ptr = dest;
