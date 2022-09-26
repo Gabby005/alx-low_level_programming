@@ -2,8 +2,8 @@
 #define HOLBERTON_H
 
 /**
-* File: holberton.h
-* Auth: Firdaus
+* File: main.h
+* Auth: Gabby005
 * Desc: Header file containing prototypes for all functions
 *       used in the 0x07-pointers_arrays_strings directory.
 */
