@@ -2,8 +2,7 @@
 
 /**
  * print_chessboard - Prints a given 2d array chess board of chars
- * @a:The chessboard to be printed
- * Return: void
+ * @a: The chessboard to be printed
  */
 void print_chessboard(char (*a)[8])
 {
@@ -14,7 +13,6 @@ void print_chessboard(char (*a)[8])
 	{
 		for (j = 0; j < 8; j++)
 			_putchar(a[i][j]);
-	
 		_putchar('\n');
 	}
 }
