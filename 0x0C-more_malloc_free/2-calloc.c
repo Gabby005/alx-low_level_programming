@@ -22,7 +22,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	p = malloc(size * nmemb);
 
-	if (mem == NULL)
+	if (p == NULL)
 		return (NULL);
 
 	filler = p;
@@ -30,5 +30,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	for (index = 0; index < (size * nmemb); index++)
 		filler[index] = '\0';
 
-	return (mem);
+	return (p);
 }
